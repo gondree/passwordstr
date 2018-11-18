@@ -22,14 +22,14 @@ void comb(void) {
 
 int main(void) {
 
+    // TODO
     // Find values for (n,r) that cause large correct inputs
     // n = ??
     // r = n/2
     cout << "P(n, n/2) = " << endl;
 
+    // TODO
     // show the integer overflow on a larger input
     cout << "P(n+1, (n+1)/2) = " << endl;
     return 0;
 }
-
-
