@@ -75,7 +75,7 @@ int main(int argc, char** argv) {
     // using an unsigned integer and doing the factorial
     n1 = 109;
     mpz_fac_ui(x1, n1);         // factorial from unsigned int, x1 = (n1)!
-    cout << printf("%lu!  =  ", n1);
+    printf("%lu!  =  ", n1);
     mpz_out_str(stdout,10,x1);
     cout << endl;
 
